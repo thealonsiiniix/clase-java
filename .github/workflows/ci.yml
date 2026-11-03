@@ -34,6 +34,6 @@ jobs:
           context: .
           push: true
           tags: |
-          ${{secrets.DOCKERHUB_USERNAME}}/suscripciones:latest
-          ${{secrets.DOCKERHUB_USERNAME}}/suscripciones:${{github.run_number}}
-         giy
+            ${{secrets.DOCKERHUB_USERNAME}}/suscripciones:latest
+            ${{secrets.DOCKERHUB_USERNAME}}/suscripciones:${{github.run_number}}
+        
